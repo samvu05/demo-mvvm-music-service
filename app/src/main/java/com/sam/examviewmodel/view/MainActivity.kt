@@ -16,8 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding.rcSong.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
             adapter = SongAdapter(
-                if (musicServ)
-
+                if()
             )
         }
     }
